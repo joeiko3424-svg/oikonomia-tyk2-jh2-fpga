@@ -1,0 +1,94 @@
+=========================================================================
+ OIKONOMIA BIOPHARMA SUBSTRATE: TYK2 JH2 (6NZP) VS JAK2 (4IVA) DISCOVERY
+=========================================================================
+[+] Detected crystallographic Deucravacitinib ligand 'LB7' (31 heavy atoms)
+[+] Aligned 4IVA (JAK2) onto 6NZP (TYK2 JH2) | Conserved Kinase Core CA RMSD: 1.887 A (18 identical residues)
+[+] TYK2 JH2 Allosteric Hinge Centroid: (14.16, -3.51, 28.73) A
+[RDKit] WARNING:[02:27:29] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[RDKit] WARNING:[02:27:29] WARNING: More than one matching pattern found - picking one
+[RDKit] WARNING:
+[!] Protocol A template note: Command '['vina', '--receptor', '/home/ubuntu/tyk2_jh2_biorxiv/TYK2_JH2.pdbqt', '--ligand', '/home/ubuntu/tyk2_jh2_biorxiv/CTRL_DEUCRA_ProtA_s42_in.pdbqt', '--local_only', '--out', '/home/ubuntu/tyk2_jh2_biorxiv/CTRL_DEUCRA_ProtA_s42_out.pdbqt']' returned non-zero exit status 1.
+[+] CONTROL Deucravacitinib Protocol A (Crystal Pose): None kcal/mol | RMSD: None A
+[+] CONTROL Deucravacitinib Protocol B (De Novo SMILES): -8.733 kcal/mol | RMSD: 4.412 A | Val690: 4.38 A
+[+] Ingested 2500 unique chemical structures (Controls + TYK2 JH2 + ChEMBL 34)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+/home/ubuntu/tyk2_jh2_biorxiv/venv/lib/python3.14/site-packages/meeko/molsetup.py:1612: RuntimeWarning: RDKit molecule has multiple conformers. Considering only the first one.
+  warnings.warn(msg, RuntimeWarning)
+[+] Prepared & voxelized 385 drug-like 3D conformers across 24 vCPUs
+[+] FPGA BAR0 Stream (385 x 4KB): P50=87.03 us | Determinism=True
+
+=== AUDIT-PROOF HARDWARE & TYK2 VALIDATION SUMMARY ===
+{
+  "hardware_substrate": "AWS EC2 f2.6xlarge | Xilinx UltraScale+ (0000:34:00.0)",
+  "agfi_id": "agfi-0b55f06c15a385187",
+  "total_voxel_blocks_streamed": 385,
+  "fpga_passed_blocks": 385,
+  "fpga_bar0_p50_us_per_4kb": 87.03,
+  "fpga_bar0_p99_us_per_4kb": 102.998,
+  "cpu_voxel_eval_us_per_4kb": 25.42,
+  "hardware_register_determinism": true,
+  "memory_footprint_kb": 0.25,
+  "control_deucravacitinib_protocolA_rmsd_A": null,
+  "control_deucravacitinib_protocolA_affinity_kcal_mol": null,
+  "control_deucravacitinib_protocolB_denovo_rmsd_A": 4.412,
+  "control_deucravacitinib_protocolB_affinity_kcal_mol": -8.733,
+  "control_benchmark_roc_auc": 0.867,
+  "top_hits_csv": "/home/ubuntu/tyk2_jh2_biorxiv/top_tyk2_jh2_hits_audited.csv"
+}
+
+=== TRACK 1: TOP NOVEL SCAFFOLD-HOPPED CHEMBL 34 HITS ===
+ Compound_ID            Track                                                             SMILES     MW  Heavy_Atoms  cLogP   TPSA  HBD  HBA  RotB   QED  SA_Score  ESOL_LogS  Tanimoto_to_Deucravacitinib  Voxel_Score  JH2_Hinge_Voxel_Hits  Clash_Ratio  dG_TYK2_JH2_kcal_mol  dG_JAK2_OffTarget_kcal_mol  ddG_Selectivity_TYK2_vs_JAK2  Ligand_Efficiency_LE  Lipophilic_LE_LLE  Val690_Hinge_A  Glu688_Hinge_A  Ala671_Pocket_A  Lys642_Anchor_A Consensus_3Seed_dG
+  CHEMBL6914 ChEMBL34_Diverse C/C(=C\c1cccc(OCc2nc(-c3ccc(C(F)(F)F)cc3)oc2C)c1)Cn1oc(=O)[nH]c1=O 487.43           35   4.79 103.26    1    6     7 0.402      2.96      -5.89                        0.103        28.00                    13          0.0                -10.70                      -9.591                         -1.11                 0.306               3.05            3.34            6.72             8.99             2.86    -10.72 +/- 0.04
+CHEMBL414010 ChEMBL34_Diverse       Cc1oc(-c2ccc(Cl)cc2)nc1COc1cccc(/C=C/C(C)n2oc(=O)[nH]c2=O)c1 453.88           32   4.60 103.26    1    6     7 0.438      3.42      -5.60                        0.096        27.25                    13          0.0                -10.67                      -9.719                         -0.95                 0.333               3.22            3.19            6.53             9.73             2.87    -10.61 +/- 0.07
+  CHEMBL7029 ChEMBL34_Diverse C/C(=C\Cn1oc(=O)[nH]c1=O)c1cccc(OCc2nc(-c3ccc(C(F)(F)F)cc3)oc2C)c1 487.43           35   4.79 103.26    1    6     7 0.402      2.94      -5.89                        0.112        29.25                    14          0.0                -10.39                      -9.588                         -0.80                 0.297               2.83            3.44            6.96             8.50             4.63    -10.44 +/- 0.05
+CHEMBL415478 ChEMBL34_Diverse       Cc1oc(-c2ccc(C(F)(F)F)cc2)nc1COc1cccc(CCCn2oc(=O)[nH]c2=O)c1 475.42           34   4.32 103.26    1    6     8 0.407      2.77      -5.46                        0.105        28.75                    14          0.0                -10.30                      -9.293                         -1.01                 0.303               3.23            3.22            6.86             7.54             3.43    -10.38 +/- 0.07
+CHEMBL266324 ChEMBL34_Diverse            CCNc1cccnc1N1CCN(C(=O)c2cc3c(C)c(OC)c(C)c(C)c3[nH]2)CC1 421.55           31   3.89  73.49    2    5     5 0.654      2.68      -4.93                        0.198        28.75                    14          0.0                -10.28                      -8.492                         -1.79                 0.332               3.65            3.42            7.35            10.02             4.66    -10.11 +/- 0.12
+
+=== TRACK 2: TOP ORAL-OPTIMIZED TYK2 JH2 ANALOGS ===
+ Compound_ID            Track                                             SMILES     MW  Heavy_Atoms  cLogP   TPSA  HBD  HBA  RotB   QED  SA_Score  ESOL_LogS  Tanimoto_to_Deucravacitinib  Voxel_Score  JH2_Hinge_Voxel_Hits  Clash_Ratio  dG_TYK2_JH2_kcal_mol  dG_JAK2_OffTarget_kcal_mol  ddG_Selectivity_TYK2_vs_JAK2  Ligand_Efficiency_LE  Lipophilic_LE_LLE  Val690_Hinge_A  Glu688_Hinge_A  Ala671_Pocket_A  Lys642_Anchor_A Consensus_3Seed_dG
+OIK-TYK2-003 Oral_TYK2_Series CNC(=O)c1nncc(NC(=O)C2CC2)c1Nc1cccc(-c2nccn2C)c1OC 421.46           31   2.34 123.06    3    7     7 0.535      2.92      -3.87                        0.722         25.5                    12          0.0                 -8.84                      -8.407                         -0.43                 0.285               4.14            4.04            6.21              8.7             3.11     -8.84 +/- 0.02

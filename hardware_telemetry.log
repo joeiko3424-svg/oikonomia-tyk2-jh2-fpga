@@ -1,0 +1,97 @@
+00:03.0 VGA compatible controller: Amazon.com, Inc. Device 1111
+00:04.0 Non-Volatile memory controller: Amazon.com, Inc. NVMe EBS Controller
+01:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+02:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.1 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.2 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.3 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.4 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.5 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.6 PCI bridge: Amazon.com, Inc. Device 0200
+03:00.7 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.0 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.1 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.2 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.3 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.4 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.5 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.6 PCI bridge: Amazon.com, Inc. Device 0200
+03:01.7 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.0 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.1 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.2 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.3 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.4 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.5 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.6 PCI bridge: Amazon.com, Inc. Device 0200
+03:02.7 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.0 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.1 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.2 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.3 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.4 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.5 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.6 PCI bridge: Amazon.com, Inc. Device 0200
+03:03.7 PCI bridge: Amazon.com, Inc. Device 0200
+24:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+25:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.1 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.2 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.3 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.4 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.5 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.6 PCI bridge: Amazon.com, Inc. Device 0200
+26:00.7 PCI bridge: Amazon.com, Inc. Device 0200
+27:00.0 Ethernet controller: Amazon.com, Inc. Elastic Network Adapter (ENA)
+2f:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+30:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+31:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+32:00.0 Non-Volatile memory controller: Amazon.com, Inc. NVMe SSD Controller
+33:00.0 PCI bridge: Amazon.com, Inc. Device 0200
+34:00.0 Memory controller: Amazon.com, Inc. Device 9048
+34:00.1 Memory controller: Amazon.com, Inc. Device 9248
+AFI          0       agfi-0b55f06c15a385187  loaded            0        ok               0       0x10212415
+AFIDEVICE    0       0x1d0f      0xf000      0000:34:00.0
+virtual-jtag-slave-timeout=0
+ocl-slave-timeout=0
+sda-slave-timeout=0
+dma-pcis-timeout=0
+pcim-range-error=0
+pcim-axi-protocol-error=0
+dma-range-error=0
+pcim-axi-protocol-4K-cross-error=0
+pcim-axi-protocol-bus-master-enable-error=0
+pcim-axi-protocol-request-size-error=0
+pcim-axi-protocol-write-incomplete-error=0
+pcim-axi-protocol-first-byte-enable-error=0
+pcim-axi-protocol-last-byte-enable-error=0
+pcim-axi-protocol-bready-error=0
+pcim-axi-protocol-rready-error=0
+pcim-axi-protocol-wchannel-error=0
+pcim-range-error-addr=0x0
+pcim-range-error-count=0
+pcim-axi-protocol-error-addr=0x0
+pcim-axi-protocol-error-count=0
+pcim-write-count=0
+pcim-read-count=0
+dma-pcis-timeout-addr=0x0
+dma-pcis-timeout-count=0
+ocl-slave-timeout-addr=0x0
+ocl-slave-timeout-count=0
+sda-slave-timeout-addr=0x0
+sda-slave-timeout-count=0
+virtual-jtag-slave-timeout-addr=0x0
+virtual-jtag-slave-timeout-count=0
+virtual-jtag-slave-write-count=0
+virtual-jtag-slave-read-count=0
+DDR0
+   write-count=0
+   read-count=0
+Power consumption (Vccint):
+   Last measured: 9 watts
+   Average: 9 watts
+   Max measured: 10 watts
+Cached agfis:
+   agfi-0b55f06c15a385187

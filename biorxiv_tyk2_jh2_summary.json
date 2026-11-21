@@ -1,0 +1,17 @@
+{
+  "hardware_substrate": "AWS EC2 f2.6xlarge | Xilinx UltraScale+ (0000:34:00.0)",
+  "agfi_id": "agfi-0b55f06c15a385187",
+  "total_voxel_blocks_streamed": 385,
+  "fpga_passed_blocks": 385,
+  "fpga_bar0_p50_us_per_4kb": 87.03,
+  "fpga_bar0_p99_us_per_4kb": 102.998,
+  "cpu_voxel_eval_us_per_4kb": 25.42,
+  "hardware_register_determinism": true,
+  "memory_footprint_kb": 0.25,
+  "control_deucravacitinib_protocolA_rmsd_A": null,
+  "control_deucravacitinib_protocolA_affinity_kcal_mol": null,
+  "control_deucravacitinib_protocolB_denovo_rmsd_A": 4.412,
+  "control_deucravacitinib_protocolB_affinity_kcal_mol": -8.733,
+  "control_benchmark_roc_auc": 0.867,
+  "top_hits_csv": "/home/ubuntu/tyk2_jh2_biorxiv/top_tyk2_jh2_hits_audited.csv"
+}

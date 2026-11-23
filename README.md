@@ -24,9 +24,21 @@ Open-source pipeline, bare-metal Xilinx UltraScale+ PCIe BAR0 telemetry, crystal
 sudo fpga-describe-local-image -S 0 -R -M
 
 # 2. Clone repository and compile userspace PCIe BAR0 streamer
-git clone [https://github.com/joeiko3424-svg/oikonomia-tyk2-jh2-fpga.git](https://github.com/joeiko3424-svg/oikonomia-tyk2-jh2-fpga.git)
+git clone https://github.com/joeiko3424-svg/oikonomia-tyk2-jh2-fpga.git
 cd oikonomia-tyk2-jh2-fpga
 gcc -O3 -march=native -shared -fPIC oikonomia_voxel_dma.c -o liboikonomia_voxel_dma.so
 
 # 3. Run pinned dual-target screen & hardware telemetry verification
 taskset -c 2 python3 run_tyk2_jh2_biorxiv.py
+```
+
+---
+
+## Key Artifacts
+- `run_tyk2_jh2_biorxiv.py` & `oikonomia_voxel_dma.c` — Sequence-aligned receptor superposition, RDKit/Meeko preparation, bare-metal C BAR0 voxel streamer, and 3-seed AutoDock Vina consensus runner.
+- `top_tyk2_jh2_hits_audited.csv` — Full physicochemical, isoform selectivity (`ΔΔG TYK2−JAK2`), and hinge/pocket contact table (`Val690`, `Glu688`, `Ala671`, `Lys642`).
+- `complex_TYK2_rank1_OIK-TYK2-003.pdb` & `rank2–rank6.pdb` — PyMOL-ready 3D complexes.
+- `hardware_telemetry.log` & `biorxiv_tyk2_jh2_summary.json` — Raw silicon latency logs and audited summary JSON.
+
+## Disclaimer
+All results are *in silico* computational and hardware benchmarks. No wet-lab synthesis or biochemical assays were performed.

@@ -1,16 +1,15 @@
-﻿\documentclass[10pt,letterpaper]{article}
+\documentclass[10pt,letterpaper]{article}
 \usepackage[margin=0.68in]{geometry}
-\usepackage{lmodern}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
 \usepackage{microtype}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
-\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
+\sloppy
 
 \title{\textbf{Deterministic Sub-100 $\mu$s Bare-Metal FPGA Spatial Voxel Screening and Dual-Target Structural Discovery of Allosteric TYK2 JH2 Inhibitors Selective Over JAK2}}
 \author{\textbf{Joseph Iko}$^{1}$ \\
@@ -36,8 +35,7 @@ From 2,500 unique chemical structures ingested across ChEMBL~34 [3], literature 
 
 \begin{table}[h!]
 \centering
-\scriptsize
-\setlength{\tabcolsep}{3.5pt}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}llrrrrrrrrrrr@{}}
 \toprule
 \textbf{Track/Rank} & \textbf{Compound ID} & \textbf{MW} & \textbf{cLogP} & \textbf{LLE} & \textbf{QED} & \textbf{SA} & \textbf{Tan.} & \textbf{$\Delta G_{\text{TYK2}}$} & \textbf{$\Delta G_{\text{JAK2}}$} & \textbf{$\Delta\Delta G$} & \textbf{Val690/Lys642 (\AA)} & \textbf{3-Seed Consensus} \\
@@ -49,7 +47,8 @@ Track 1 \#4 & CHEMBL415478 & 475.42 & 4.32 & 3.23 & 0.407 & 2.77 & 0.105 & -10.3
 Track 1 \#5 & CHEMBL266324 & 421.55 & 3.89 & 3.65 & 0.654 & 2.68 & 0.198 & -10.28 & -8.49 & -1.79 & 3.42 / 4.66 & $-10.11 \pm 0.12$ \\
 Track 2 \#1 & OIK-TYK2-003 & 421.46 & 2.34 & 4.14 & 0.535 & 2.92 & 0.722 & -8.84 & -8.41 & -0.43 & 4.04 / 3.11 & $-8.84 \pm 0.02$ \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \caption{Dual-target AutoDock Vina consensus docking ($\text{kcal/mol}$) of top voxel-screened candidates against human TYK2 JH2 (PDB: 6NZP) and off-target JAK2 JH1 (PDB: 4IVA) across seeds 42, 137, and 2026. Tanimoto similarity is computed against deucravacitinib (Morgan radius 2, 2048-bit).}
 \end{table}
 
@@ -59,14 +58,14 @@ High-resolution crystal structures of human TYK2 JH2 co-crystallized with deucra
 \begin{table}[h!]
 \centering
 \footnotesize
-\begin{tabular}{@{}llrrl@{}}
+\begin{tabularx}{\textwidth}{@{}llrrX@{}}
 \toprule
-\textbf{Validation Benchmark} & \textbf{Protocol / Target} & \textbf{Binding Affinity ($\Delta G$)} & \textbf{Heavy-Atom RMSD} & \textbf{Key Structural Contact \& Enrichment} \\
+\textbf{Validation Benchmark} & \textbf{Protocol / Target} & \textbf{$\Delta G$} & \textbf{RMSD} & \textbf{Key Structural Contact \& Enrichment} \\
 \midrule
-Deucravacitinib Control & Protocol B (De Novo SMILES $\rightarrow$ 6NZP) & $-8.733\text{ kcal/mol}$ & $4.412\text{ \AA}$ & Allosteric hinge Val690 + Lys642 pocket engagement \\
-Active vs.\ Decoy Separation & 3 JH2 Binders vs.\ 5 Clinical Decoys & -- & -- & $\text{ROC-AUC} = 0.867$ rank discrimination \\
+Deucravacitinib Control & De Novo SMILES $\rightarrow$ 6NZP & $-8.733\text{ kcal/mol}$ & $4.412\text{ \AA}$ & Allosteric hinge Val690 + Lys642 pocket engagement \\
+Active vs.\ Decoy Separation & 3 JH2 Binders vs.\ 5 Decoys & -- & -- & $\text{ROC-AUC} = 0.867$ rank discrimination \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \caption{Control validation across crystallographic reference inhibitor deucravacitinib (BMS-986165) and multi-ligand active-versus-decoy enrichment (3 known JH2 binders vs.\ aspirin, caffeine, ibuprofen, atorvastatin, and metformin).}
 \end{table}
 
@@ -76,7 +75,7 @@ To eliminate Linux kernel driver overhead and OS thread preemption, 3D molecular
 \begin{table}[h!]
 \centering
 \footnotesize
-\begin{tabular}{@{}lll@{}}
+\begin{tabularx}{\textwidth}{@{}llX@{}}
 \toprule
 \textbf{Hardware / Telemetry Metric} & \textbf{Measured Value} & \textbf{Execution Profile \& Architectural Significance} \\
 \midrule
@@ -87,7 +86,7 @@ C BAR0 Stream P50 / P99 ($385 \times 4$~KB) & 87.03~$\mu$s / 102.998~$\mu$s & Na
 Host CPU / GPU Socket Baseline & 150--350~W TDP & Conventional host memory evaluation subject to OS preemption \\
 Hardware Output Determinism & 100\% Bit-Exact & Verified via repeated BAR0 register readback (\texttt{Determinism=True}) \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \caption{Empirical physical silicon telemetry captured on AWS EC2 \texttt{f2.6xlarge} (\texttt{Ubuntu 26.04 LTS}) with nanosecond \texttt{CLOCK\_MONOTONIC\_RAW} instrumentation.}
 \end{table}
 
